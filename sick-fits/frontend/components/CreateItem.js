@@ -61,7 +61,7 @@ class CreateItem extends Component {
     };
     render() {
         return (
-            <Mutation 
+            <Mutation
                 mutation={CREATE_ITEM_MUTATION}
                 variables={this.state}>
                 {(createItem, { loading, error }) => (
