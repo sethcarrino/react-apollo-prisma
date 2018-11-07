@@ -1,4 +1,4 @@
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcryptjssignuo");
 const jwt = require("jsonwebtoken");
 
 const Mutations = {
